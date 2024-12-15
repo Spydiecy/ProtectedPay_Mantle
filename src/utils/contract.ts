@@ -1099,6 +1099,19 @@ export const getContract = (signer: ethers.Signer) => {
   return new ethers.Contract(contractAddress, contractABI, signer);
 };
 
+export const getPaymentAmount = async (signer: ethers.Signer, paymentId: string) => {
+	try {
+	  const contract = getContract(signer);
+	  const payment = await contract.getGroupPaymentDetails(paymentId);
+	  // Convert Wei to Ether
+	  const amountInEther = ethers.utils.formatEther(payment.amountPerPerson);
+	  return amountInEther;
+	} catch (error) {
+	  console.error('Error fetching payment amount:', error);
+	  throw error;
+	}
+  };
+
 // User Registration and Management
 export const registerUsername = async (signer: ethers.Signer, username: string) => {
   const contract = getContract(signer);
