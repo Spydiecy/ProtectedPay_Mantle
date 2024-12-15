@@ -223,7 +223,7 @@ export default function TransferPage() {
             </div>
 
             <div>
-              <label className="mb-2 text-green-400 font-medium">Amount (GAS)</label>
+              <label className="mb-2 text-green-400 font-medium">Amount (MNT)</label>
               <input
                 type="number"
                 value={amount}
@@ -367,7 +367,7 @@ export default function TransferPage() {
                       `From: ${transfer.sender}` : 
                       `To: ${transfer.recipient}`}
                   </div>
-                  <div className="text-green-400 font-semibold">{transfer.amount} GAS</div>
+                  <div className="text-green-400 font-semibold">{transfer.amount} MNT</div>
                 </div>
                 <motion.button
                   onClick={() => {

@@ -19,23 +19,23 @@ type ExtendedProvider = ethers.providers.ExternalProvider & {
   isMetaMask?: boolean;
 };
 
-// Define NeoX Testnet
-const neoXTestnet = {
-  id: 12227332,
-  name: 'NeoX Testnet',
+// Define Mantle Testnet
+const MantleTestnet = {
+  id: 5003,
+  name: 'Mantle Testnet',
   nativeCurrency: {
     decimals: 18,
-    name: 'GAS',
-    symbol: 'GAS',
+    name: 'MNT',
+    symbol: 'MNT',
   },
   rpcUrls: {
     default: {
-      http: ['https://neoxt4seed1.ngd.network/']
+      http: ['https://rpc.sepolia.mantle.xyz/']
     }
   },
   blockExplorers: {
     default: {
-      name: 'NeoX Scan',
+      name: 'Mantle Scan',
       url: 'https://xt4scan.ngd.network/'
     }
   },
@@ -58,9 +58,9 @@ const connectors = connectorsForWallets([
 
 const wagmiConfig = createConfig({
   connectors,
-  chains: [neoXTestnet],
+  chains: [MantleTestnet],
   transports: {
-    [neoXTestnet.id]: http(),
+    [MantleTestnet.id]: http(),
   },
 });
 

@@ -123,7 +123,7 @@ const Hero = () => {
           className="text-xl sm:text-2xl md:text-3xl lg:text-4xl mb-8 md:mb-12 text-gray-300 max-w-3xl mx-auto font-light px-4"
           variants={fadeIn}
         >
-          Secure Crypto Transfers, Group Payments, and Smart Savings on NeoX Chain
+          Secure Crypto Transfers, Group Payments, and Smart Savings on Mantle Chain
         </motion.p>
 
         <motion.div 
@@ -492,7 +492,7 @@ const CallToAction = () => (
           className="text-base md:text-xl mb-8 md:mb-12 text-gray-300 px-4"
           variants={fadeIn}
         >
-          Experience secure transfers, group payments, and smart savings on the NeoX Chain blockchain.
+          Experience secure transfers, group payments, and smart savings on the Mantle Chain blockchain.
         </motion.p>
 
         <motion.div
