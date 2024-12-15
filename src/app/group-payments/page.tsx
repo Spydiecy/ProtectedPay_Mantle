@@ -296,7 +296,7 @@ export default function GroupPaymentsPage() {
                       </div>
 
                       <div>
-                        <label className="mb-2 text-green-400 font-medium">Amount per Person (GAS)</label>
+                        <label className="mb-2 text-green-400 font-medium">Amount per Person (MNT)</label>
                         <input
                           type="number"
                           value={amount}
@@ -401,7 +401,7 @@ export default function GroupPaymentsPage() {
                                     To: {truncateAddress(payment.recipient)}
                                   </div>
                                   <div className="text-green-400 font-semibold">
-                                    {formatAmount(payment.amountPerPerson)} GAS per person
+                                    {formatAmount(payment.amountPerPerson)} MNT per person
                                   </div>
                                 </div>
                                 <span className={`px-3 py-1 rounded-full text-sm ${
@@ -473,7 +473,7 @@ export default function GroupPaymentsPage() {
                       </div>
 
                         <div>
-                          <label className="mb-2 text-green-400 font-medium">Amount (GAS)</label>
+                          <label className="mb-2 text-green-400 font-medium">Amount (MNT)</label>
                           <input
                             type="number"
                             value={amount}
@@ -550,7 +550,7 @@ export default function GroupPaymentsPage() {
                                       Payment ID: {truncateAddress(payment.id)}
                                     </div>
                                     <div className="text-green-400 font-semibold">
-                                      {formatAmount(payment.amountPerPerson)} GAS required
+                                      {formatAmount(payment.amountPerPerson)} MNT required
                                     </div>
                                   </div>
                                   {payment.status === 0 && (
@@ -620,8 +620,8 @@ export default function GroupPaymentsPage() {
                             <div className="space-y-2 text-sm">
                               <p className="text-gray-400">ID: {truncateAddress(payment.id)}</p>
                               <p className="text-gray-400">Recipient: {truncateAddress(payment.recipient)}</p>
-                              <p className="text-gray-400">Amount per Person: {formatAmount(payment.amountPerPerson)} GAS</p>
-                              <p className="text-gray-400">Total Amount: {formatAmount(payment.totalAmount)} GAS</p>
+                              <p className="text-gray-400">Amount per Person: {formatAmount(payment.amountPerPerson)} MNT</p>
+                              <p className="text-gray-400">Total Amount: {formatAmount(payment.totalAmount)} MNT</p>
                             </div>
                           </div>
                           <div>
