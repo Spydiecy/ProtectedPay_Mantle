@@ -2,7 +2,7 @@
 
 ProtectedPay is a comprehensive DeFi platform on the Mantle blockchain that provides secure transfers, group payments, and smart savings features. Built with advanced security and user experience in mind, it offers multiple ways to manage and protect your crypto assets.
 
-![image](https://github.com/user-attachments/assets/ea8a2e94-dad2-48cd-af7f-88e08d0e37a8)
+![image](https://github.com/user-attachments/assets/cb56d1ea-0ac2-4c8d-b3c3-a8eebc509ff6)
 
 ## Key Features
 
@@ -36,21 +36,21 @@ ProtectedPay is a comprehensive DeFi platform on the Mantle blockchain that prov
 ## How It Works
 
 ### Secure Transfers
-![image](https://github.com/user-attachments/assets/0522d7ca-f364-40f2-a071-71ad63abc72e)
+![image](https://github.com/user-attachments/assets/7266146d-796e-4806-9cfa-8cf183628227)
 1. Send funds to username or address
 2. Add remarks for context
 3. Recipient claims funds
 4. Option to refund if unclaimed
 
 ### Group Payments
-![image](https://github.com/user-attachments/assets/43f78c9e-ecb2-47d4-8bec-6e506fc3ad29)
+![image](https://github.com/user-attachments/assets/ef407b5d-3ad4-40c3-85d6-5bf1c31bf477)
 1. Create payment with target amount
 2. Set number of participants
 3. Members contribute their share
 4. Automatic distribution when complete
 
 ### Savings Pots
-![image](https://github.com/user-attachments/assets/26fcdbc5-a6d3-4e48-84d9-ba6ac28613ac)
+![image](https://github.com/user-attachments/assets/bf576ef1-acb7-4b6d-bb5a-2e4a3c608175)
 1. Create pot with target amount
 2. Add funds progressively
 3. Track savings progress
@@ -58,7 +58,7 @@ ProtectedPay is a comprehensive DeFi platform on the Mantle blockchain that prov
 
 ## User Interface
 
-![image](https://github.com/user-attachments/assets/39e544b8-92a4-4d72-b04e-668212a2b321)
+![image](https://github.com/user-attachments/assets/fafec65b-88cc-4811-8f9e-01112b8d72a0)
 
 ### Modern Design
 - Dark theme with neon accents
@@ -66,6 +66,9 @@ ProtectedPay is a comprehensive DeFi platform on the Mantle blockchain that prov
 - Responsive layout
 - Interactive animations
 - Real-time updates
+- TG Mini-app
+  ![image](https://github.com/user-attachments/assets/9cbd013a-f40e-4905-ad57-3eeec247b5d5)
+  ![image](https://github.com/user-attachments/assets/45ff59ee-394b-49a7-acb3-c0769e31f5cd)
 
 ### Dashboard Features
 - Activity history
@@ -90,7 +93,7 @@ Watch ProtectedPay in action:
 ## Smart Contract
 
 Deployed on Mantle:
-- Contract Address: 0xF93132d75c20EfeD556EC2Bc5aC777750665D3a9
+- Contract Address: 0xCa36dD890F987EDcE1D6D7C74Fb9df627c216BF6
 - Verified on Mantle Explorer
 
 ## Support
